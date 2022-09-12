@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.railway" thread-count="1" parallel="tests">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.railway.LoginTest"/>
+            <class name="com.railway.RegisterTest"/>
+            <class name="com.railway.BookTicketTest"/>
+            <class name="com.railway.ChangePasswordTest"/>
+            <class name="com.railway.TimetableTest"/>
+            <class name="com.railway.ManageTicketTest"/>
+        </classes>
+    </test>
+</suite>
+
